@@ -1,4 +1,4 @@
-{
+var teams = {
     "A": {
         "name" : "Aaa",
         "color" : "#aaaaaa",
