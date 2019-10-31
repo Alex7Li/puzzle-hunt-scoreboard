@@ -1,18 +1,40 @@
 <DOCTYPE html>
 <html>
-    <head>
-        <title>Scoreboard</title>
-    </head>
-    <body>
-        Score 19
-        <!-- The core Firebase JS SDK is always required and must be listed first -->
-        <script src="/__/firebase/7.2.2/firebase-app.js"></script>
+<head>
+    <title>Scoreboard</title>
 
-        <!-- TODO: Add SDKs for Firebase products that you want to use
-            https://firebase.google.com/docs/web/setup#available-libraries -->
-        <script src="/__/firebase/7.2.2/firebase-analytics.js"></script>
+    <script>
+/*-------------------------------*/
+function loadJSON(callback) {   
+    var xobj = new XMLHttpRequest();
+    xobj.overrideMimeType("application/json");
+    xobj.open('GET', 'teams.json', true); // Replace 'my_data' with the path to your file
+    xobj.onreadystatechange = function () {
+        if (xobj.readyState == 4 && xobj.status == "200") {
+            // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+            callback(xobj.responseText);
+        }
+    };
+    xobj.send(null);  
+}
 
-        <!-- Initialize Firebase -->
-        <script src="/__/firebase/init.js"></script>
-    </body>
+function init() {
+    loadJSON(function(response){
+        var actual_json = JSON.parse(response);
+    });
+}
+
+alert(init().A.name);
+
+/*-------------------------------*/
+    </script>
+</head>
+<body>
+    <script>
+/*-------------------------------*/
+
+
+/*-------------------------------*/
+    </script>
+</body>
 </html>
