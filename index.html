@@ -8,7 +8,22 @@
     <script>
 /*---------------------------------------------------------*/
 
-document.writeln(JSON.stringify(scores));
+// know: teams, scores
+
+var body = document.body, 
+    tbl = document.createElement('table');
+tbl.style.width = '100px';
+tbl.style.border = '1px solid black';
+
+for(let [k, team] of Object.entries(teams)){
+    var tr = tbl.insertRow();
+    td = tr.insertCell();
+    td.appendChild(document.createTextNode(team.name));
+    td.style.body = '1px solid black';
+    td.appendChild(document.createTextNode(score[k]));
+    td.style.body = '1px solid black';
+}
+bondy.appendChild(tbl);
 
 /*---------------------------------------------------------*/
     </script>

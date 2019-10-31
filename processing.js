@@ -1,3 +1,5 @@
+// teams = ...
+
 scores = {}
 for (var t in teams) {
     if(t != "GMs"){
@@ -9,3 +11,11 @@ for (var t in teams) {
         scores[egg.finder]++;
     }
 }
+
+/*
+TABLE 1:
+Color, Name, eggno, last time found
+
+TABLE 2:
+Name, index, other name, time
+*/
