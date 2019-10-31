@@ -8,11 +8,13 @@
 /*-------------------------------*/
 
 scores = {}
-for (var k in teams) {
-    scores[k] = 0;
+for (var t in teams) {
+    if(t != "GMs"){
+        scores[t] = 0;
+    }
 }
-for (var k1 in teams) {
-    for (var egg in k1.eggs){
+for (var t in teams) {
+    for (var egg in t.eggs){
         scores[egg.finder]++;
     }
 }
