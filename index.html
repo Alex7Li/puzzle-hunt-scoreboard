@@ -4,24 +4,13 @@
     <title>Scoreboard</title>
 
     <script type="text/javascript" src="teams.js"></script>
+    <script type="text/javascript" src="processing.js"></script>
     <script>
-/*-------------------------------*/
-
-scores = {}
-for (var t in teams) {
-    if(t != "GMs"){
-        scores[t] = 0;
-    }
-}
-for (var t in teams) {
-    for (var egg in t.eggs){
-        scores[egg.finder]++;
-    }
-}
+/*---------------------------------------------------------*/
 
 document.writeln(JSON.stringify(scores));
 
-/*-------------------------------*/
+/*---------------------------------------------------------*/
     </script>
 </head>
 <body>
