@@ -6,9 +6,9 @@ for (var t in teams) {
         scores[t] = 0;
     }
 }
-for (var t in teams) {
-    for (var egg in t.eggs){
-        scores[egg.finder]++;
+for (let [k, team] of Object.entries(teams)) {
+    for (var i=0; i<team.eggs.length; i++){
+        scores[team.eggs[i].finder]++;
     }
 }
 
