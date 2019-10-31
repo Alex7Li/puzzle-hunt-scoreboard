@@ -7,7 +7,17 @@
     <script>
 /*-------------------------------*/
 
-alert(teams.A.name);
+scores = {}
+for (var k in teams) {
+    scores[k] = 0;
+}
+for (var k1 in teams) {
+    for (var egg in k1.eggs){
+        scores[egg.finder]++;
+    }
+}
+
+document.writeln(scores)
 
 /*-------------------------------*/
     </script>
