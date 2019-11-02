@@ -1,6 +1,3 @@
-// teams = ...
-
-
 function minutes_since_noon(timestr) {
     if(timestr == null){
         return 0;
