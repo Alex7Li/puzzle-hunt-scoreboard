@@ -1,5 +1,6 @@
 // teams = ...
 
+
 function minutes_since_noon(timestr) {
     if(timestr == null){
         return 0;
@@ -58,13 +59,3 @@ sorted_teams.sort(
         return a < b ? -1: 1; 
     }
 );
-
-
-
-/*
-TABLE 1:
-Color, Name, eggno, last time found
-
-TABLE 2:
-Name, index, other name, time
-*/

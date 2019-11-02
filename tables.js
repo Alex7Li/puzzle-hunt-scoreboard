@@ -1,3 +1,13 @@
+function color_name(letter){
+    /*
+        return document.createTextNode(teams[letter].name);
+    */
+    var node = document.createElement("p");
+    var r = 14
+    node.innerHTML = '<svg width="'+r+'" height="14"><rect width="14" height="14" style="fill:'+ teams[letter].color +';stroke-width:3;stroke:rgb(0,0,0)" /></svg> ' + teams[letter].name;
+    return node;
+}
+
 // know: teams, scores, last_egg_time
 var body = document.createElement('div');
 body.className = "content";
@@ -29,8 +39,9 @@ for(i=0; i<sorted_teams.length; i++){
     }
     var tr = tbl.insertRow();
     tr.insertCell().appendChild(document.createTextNode(i+1));
-    tr.insertCell().appendChild(document.createTextNode(team.name));
+    tr.insertCell().appendChild(color_name(k));
     tr.insertCell().appendChild(document.createTextNode(scores[k]));
+
     var find_time = last_egg_time[k];
     var team_thing_count = team_eggs[k];
     var gm_thing_count = scores[k] - team_thing_count;
@@ -71,7 +82,7 @@ for (let [k, team] of Object.entries(teams)) {
             tr.className = "border_top";
         }
         tr.insertCell().appendChild(document.createTextNode(i+1));
-        tr.insertCell().appendChild(document.createTextNode(egg.finder == null ? "\u2014" : teams[egg.finder].name));
+        tr.insertCell().appendChild(egg.finder == null? document.createTextNode("\u2014") : color_name(k));
         tr.insertCell().appendChild(document.createTextNode(egg.found_time == null ? "\u2014" : egg.found_time));
     }
 }
