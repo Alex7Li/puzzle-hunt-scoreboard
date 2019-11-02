@@ -1,5 +1,8 @@
 // know: teams, scores, last_egg_time
-var body = document.body;
+var body = document.createElement('div');
+body.className = "content";
+document.body.appendChild(body);
+
 
 h = document.createElement('h2')
 h.appendChild(document.createTextNode('Standings'));
@@ -74,3 +77,4 @@ for (let [k, team] of Object.entries(teams)) {
     }
 }
 body.appendChild(tbl);
+

@@ -4,14 +4,14 @@ var teams = {
         "color" : "#aaaaaa",
         "eggs" : [
             /*1*/ {"finder": "B", "found_time": "12:30"},
-            /*2*/ {"finder": "B", "found_time": null}
+            /*2*/ {"finder": "B", "found_time": "12:31"}
         ]
     },
     "B": {
         "name" : "Bravo",
         "color" : "#bbbbbb",
         "eggs" : [
-            /*1*/ {"finder": "A", "found_time": null},
+            /*1*/ {"finder": "A", "found_time": "12:50"},
             /*2*/ {"finder": null, "found_time": null}
         ]
     },
