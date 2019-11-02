@@ -47,10 +47,15 @@ for (let [k, team] of Object.entries(teams)) {
 var sorted_teams = Object.keys(teams);
 sorted_teams.sort(
     function(a, b){
-        return scores[a] > scores[b] || 
-        minutes_since_noon(last_egg_time[a]) > minutes_since_noon(last_egg_time[b]) || 
-        a < b
-        ? -1 : 1;
+        if(scores[a] != scores[b]){
+            return scores[a] > scores[b] ? -1 : 1;
+        }
+        var mins_a = minutes_since_noon(last_egg_time[a]);
+        var mins_b = minutes_since_noon(last_egg_time[b]);
+        if (mins_a != mins_b){
+            return mins_a < mins_b ? -1 : 1;
+        }
+        return a < b ? -1: 1; 
     }
 );
 
