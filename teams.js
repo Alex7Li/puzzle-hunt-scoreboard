@@ -1,6 +1,6 @@
 var teams = {
     "A": {
-        "name" : "Alpha",
+        "name" : "Team Kush",
         "color" : "#ff0000",
         "eggs" : [
             /*1*/ {"finder": "B", "found_time": "12:30"},
@@ -8,7 +8,7 @@ var teams = {
         ]
     },
     "B": {
-        "name" : "Bravo",
+        "name" : "Tensor",
         "color" : "#00ff00",
         "eggs" : [
             /*1*/ {"finder": "A", "found_time": "12:50"},
@@ -16,7 +16,7 @@ var teams = {
         ]
     },
     "C": {
-        "name" : "Charley",
+        "name" : "Bastardly FastX Cucks",
         "color" : "#0000ff",
         "eggs" : [
             /*1*/ {"finder": "D", "found_time": "1:20"},
@@ -24,7 +24,7 @@ var teams = {
         ]
     },
     "D": {
-        "name" : "Delta",
+        "name" : "Hilbert's 17th Puzzle",
         "color" : "#ffff00",
         "eggs" : [
             /*1*/ {"finder": null, "found_time": null},
@@ -32,7 +32,7 @@ var teams = {
         ]
     },
     "E": {
-        "name" : "Echo",
+        "name" : "The subcollective",
         "color" : "#ff00ff",
         "eggs" : [
             /*1*/ {"finder": "F", "found_time": "3:00"},
@@ -40,13 +40,53 @@ var teams = {
         ]
     },
     "F": {
-        "name" : "Foxtrot",
+        "name" : "whtever",
         "color" : "#00ffff",
         "eggs" : [
             /*1*/ {"finder": null, "found_time": null},
             /*2*/ {"finder": null, "found_time": null}
         ]
     },
+    "G": {
+        "name" : "The Invisible Hands",
+        "color" : "#000000",
+        "eggs" : [
+            /*1*/ {"finder": null, "found_time": null},
+            /*2*/ {"finder": null, "found_time": null}
+        ]
+    },
+    "H": {
+        "name" : "Stre3t Ratz",
+        "color" : "#ffa500",
+        "eggs" : [
+            /*1*/ {"finder": null, "found_time": null},
+            /*2*/ {"finder": null, "found_time": null}
+        ]
+    },
+    "I": {
+        "name" : "Zimtschnecke",
+        "color" : "#7700bb",
+        "eggs" : [
+            /*1*/ {"finder": null, "found_time": null},
+            /*2*/ {"finder": null, "found_time": null}
+        ]
+    },
+    "J": {
+        "name" : "Cereal Killers",
+        "color" : "#ffffff",
+        "eggs" : [
+            /*1*/ {"finder": null, "found_time": null},
+            /*2*/ {"finder": null, "found_time": null}
+        ]
+    },    
+    // "K": {
+    //     "name" : "New Team",
+    //     "color" : "#808080",
+    //     "eggs" : [
+    //         /*1*/ {"finder": null, "found_time": null},
+    //         /*2*/ {"finder": null, "found_time": null}
+    //     ]
+    // },
     "GMs": {
         "name" : "GMs",
         "color" : "#000000",

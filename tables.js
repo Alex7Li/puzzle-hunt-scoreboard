@@ -19,7 +19,7 @@ body.appendChild(h);
 
 // Table 1 ===============================
 var tbl = document.createElement('table');
-tbl.style.width = '500px';
+tbl.style.width = '600px';
 tbl.style.border = '2px solid black';
 
 var th = tbl.createTHead();
@@ -61,7 +61,7 @@ body.appendChild(h);
 // Table 2 ================================
 // Name-index, finder, time
 var tbl = document.createElement('table');
-tbl.style.width = '500px';
+tbl.style.width = '600px';
 tbl.style.border = '2px solid black';
 
 var tr = tbl.createTHead().insertRow(0);
