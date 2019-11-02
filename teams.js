@@ -3,7 +3,7 @@ var teams = {
         "name" : "Team A",
         "color" : "#aaaaaa",
         "eggs" : [
-            /*1*/ {"finder": "B", "found_time": null},
+            /*1*/ {"finder": "B", "found_time": "12:30"},
             /*2*/ {"finder": "B", "found_time": null}
         ]
     },
