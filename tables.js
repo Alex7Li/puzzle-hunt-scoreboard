@@ -31,7 +31,7 @@ tr.insertCell().innerHTML = "<b>Team Clues</b>";
 tr.insertCell().innerHTML = "<b>GM Clues</b>";
 tr.insertCell().innerHTML = "<b>Time</b>";
 
-for(i=0; i<sorted_teams.length; i++){
+for(var i=0; i<sorted_teams.length; i++){
     k = sorted_teams[i];
     team = teams[k];
     if (k=="GMs") {
