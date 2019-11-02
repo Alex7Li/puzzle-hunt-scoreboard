@@ -16,6 +16,7 @@ function minutes_since_noon(timestr) {
 scores = {}
 last_egg_time = {}
 team_eggs = {}
+eggs_remaining = 0
 
 for (var t in teams) {
     if(t != "GMs"){
@@ -28,6 +29,10 @@ for (let [k, team] of Object.entries(teams)) {
     for (var i=0; i<team.eggs.length; i++){
         var finder = team.eggs[i].finder
         var found_time = team.eggs[i].found_time
+        if(finder == null){
+            eggs_remaining++;
+            continue;
+        }
         scores[finder]++;
         if(k != "GMs"){
             team_eggs[finder]++;

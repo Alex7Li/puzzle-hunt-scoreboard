@@ -1,6 +1,6 @@
 var teams = {
     "A": {
-        "name" : "Team A",
+        "name" : "Alpha",
         "color" : "#aaaaaa",
         "eggs" : [
             /*1*/ {"finder": "B", "found_time": "12:30"},
@@ -8,7 +8,7 @@ var teams = {
         ]
     },
     "B": {
-        "name" : "Team B",
+        "name" : "Bravo",
         "color" : "#bbbbbb",
         "eggs" : [
             /*1*/ {"finder": "A", "found_time": null},
@@ -16,7 +16,7 @@ var teams = {
         ]
     },
     "C": {
-        "name" : "Team C",
+        "name" : "Charley",
         "color" : "#cccccc",
         "eggs" : [
             /*1*/ {"finder": null, "found_time": null},
@@ -24,7 +24,7 @@ var teams = {
         ]
     },
     "D": {
-        "name" : "Team D",
+        "name" : "Delta",
         "color" : "#dddddd",
         "eggs" : [
             /*1*/ {"finder": null, "found_time": null},
@@ -32,7 +32,7 @@ var teams = {
         ]
     },
     "E": {
-        "name" : "Team E",
+        "name" : "Echo",
         "color" : "#eeeeee",
         "eggs" : [
             /*1*/ {"finder": null, "found_time": null},
@@ -40,7 +40,7 @@ var teams = {
         ]
     },
     "F": {
-        "name" : "Team F",
+        "name" : "Foxtrot",
         "color" : "#ffffff",
         "eggs" : [
             /*1*/ {"finder": null, "found_time": null},

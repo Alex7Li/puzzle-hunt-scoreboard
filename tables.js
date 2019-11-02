@@ -1,9 +1,13 @@
 // know: teams, scores, last_egg_time
 var body = document.body;
 
+h = document.createElement('h2')
+h.appendChild(document.createTextNode('Standings'));
+body.appendChild(h);
+
 // Table 1 ===============================
 var tbl = document.createElement('table');
-tbl.style.width = '400px';
+tbl.style.width = '500px';
 tbl.style.border = '2px solid black';
 
 var th = tbl.createTHead();
@@ -30,16 +34,21 @@ for(i=0; i<sorted_teams.length; i++){
     var gm_thing_count = scores[k] - team_thing_count;
     tr.insertCell().appendChild(document.createTextNode(team_thing_count));
     tr.insertCell().appendChild(document.createTextNode(gm_thing_count));
-    tr.insertCell().appendChild(document.createTextNode(find_time == null ? "--": find_time));
+    tr.insertCell().appendChild(document.createTextNode(find_time == null ? "\u2014": find_time));
 
 }
 body.appendChild(tbl);
 
+// Title ==================================
+
+h = document.createElement('h2')
+h.appendChild(document.createTextNode('Clues Remaining: ' + eggs_remaining));
+body.appendChild(h);
 
 // Table 2 ================================
-// Name, index, other name, time
+// Name-index, finder, time
 var tbl = document.createElement('table');
-tbl.style.width = '400px';
+tbl.style.width = '500px';
 tbl.style.border = '2px solid black';
 
 var tr = tbl.createTHead().insertRow(0);
@@ -53,10 +62,15 @@ for (let [k, team] of Object.entries(teams)) {
     for(var i = 0; i<team.eggs.length; i++){
         egg = team.eggs[i];
         var tr = tbl.insertRow();
-        tr.insertCell().appendChild(document.createTextNode(team.name));
+        if (i==0){
+            var td = tr.insertCell();
+            td.appendChild(document.createTextNode(team.name));
+            td.rowSpan = team.eggs.length;
+            tr.className = "border_top";
+        }
         tr.insertCell().appendChild(document.createTextNode(i+1));
-        tr.insertCell().appendChild(document.createTextNode(egg.finder == null ? "--" : egg.finder));
-        tr.insertCell().appendChild(document.createTextNode(egg.found_time == null ? "--" : egg.found_time));
+        tr.insertCell().appendChild(document.createTextNode(egg.finder == null ? "\u2014" : teams[egg.finder].name));
+        tr.insertCell().appendChild(document.createTextNode(egg.found_time == null ? "\u2014" : egg.found_time));
     }
 }
 body.appendChild(tbl);
