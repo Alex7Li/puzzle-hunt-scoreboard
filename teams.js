@@ -87,6 +87,14 @@ var teams = {
             /*2*/ {"finder": null, "found_time": null}
         ]
     },
+    "L": {
+        "name" : "Albertross",
+        "color" : "#DEB887",
+        "eggs" : [
+            /*1*/ {"finder": null, "found_time": null},
+            /*2*/ {"finder": null, "found_time": null}
+        ]
+    },
     "GMs": {
         "name" : "GMs",
         "color" : "#000000",
