@@ -79,14 +79,14 @@ var teams = {
             /*2*/ {"finder": null, "found_time": null}
         ]
     },    
-    // "K": {
-    //     "name" : "New Team",
-    //     "color" : "#808080",
-    //     "eggs" : [
-    //         /*1*/ {"finder": null, "found_time": null},
-    //         /*2*/ {"finder": null, "found_time": null}
-    //     ]
-    // },
+    "K": {
+        "name" : "The Lumber Jacks",
+        "color" : "#808080",
+        "eggs" : [
+            /*1*/ {"finder": null, "found_time": null},
+            /*2*/ {"finder": null, "found_time": null}
+        ]
+    },
     "GMs": {
         "name" : "GMs",
         "color" : "#000000",
