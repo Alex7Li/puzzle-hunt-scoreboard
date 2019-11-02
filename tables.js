@@ -3,7 +3,6 @@ var body = document.createElement('div');
 body.className = "content";
 document.body.appendChild(body);
 
-
 h = document.createElement('h2')
 h.appendChild(document.createTextNode('Standings'));
 body.appendChild(h);
@@ -78,3 +77,10 @@ for (let [k, team] of Object.entries(teams)) {
 }
 body.appendChild(tbl);
 
+
+
+function timedRefresh(timeoutPeriod) {
+	setTimeout("location.reload(true);",timeoutPeriod);
+}
+
+window.onload = timedRefresh(30000);
