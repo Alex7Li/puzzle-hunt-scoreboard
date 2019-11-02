@@ -45,7 +45,10 @@ for (let [k, team] of Object.entries(teams)) {
     }
 }
 
-var sorted_teams = Object.keys(teams);
+var sorted_teams = Object.keys(teams).filter(function(value, index, arr){
+    return value != "GMs";
+});
+
 sorted_teams.sort(
     function(a, b){
         if(scores[a] != scores[b]){
