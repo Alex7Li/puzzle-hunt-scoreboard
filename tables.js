@@ -82,7 +82,7 @@ for (let [k, team] of Object.entries(teams)) {
             tr.className = "border_top";
         }
         tr.insertCell().appendChild(document.createTextNode(i+1));
-        tr.insertCell().appendChild(egg.finder == null? document.createTextNode("\u2014") : color_name(k));
+        tr.insertCell().appendChild(egg.finder == null? document.createTextNode("\u2014") : color_name(egg.finder));
         tr.insertCell().appendChild(document.createTextNode(egg.found_time == null ? "\u2014" : egg.found_time));
     }
 }
