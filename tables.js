@@ -90,8 +90,8 @@ body.appendChild(tbl);
 
 
 
-function timedRefresh(timeoutPeriod) {
-	setTimeout("location.reload(true);",timeoutPeriod);
-}
+// function timedRefresh(timeoutPeriod) {
+// 	setTimeout("location.reload(true);",timeoutPeriod);
+// }
 
-window.onload = timedRefresh(60000);
+// window.onload = timedRefresh(60000);
