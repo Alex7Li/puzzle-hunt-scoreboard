@@ -59,7 +59,7 @@ var teams = {
         "name" : "Stre3t Ratz",
         "color" : "#ffa500",
         "eggs" : [
-            /*H1*/ {"finder": "A", "found_time": null},
+            /*H1*/ {"finder": null, "found_time": null},
             /*H2*/ {"finder": null, "found_time": null}
         ]
     },
