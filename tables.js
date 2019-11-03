@@ -19,7 +19,7 @@ body.appendChild(h);
 
 var button = document.createElement("button");
 button.innerHTML = "Refresh";
-button.onclick = "location.reload(true);";
+button.onclick = "window.location.reload(true);";
 body.appendChild(button);
 
 body.appendChild(document.createElement('br'));
