@@ -17,6 +17,14 @@ h = document.createElement('h2')
 h.appendChild(document.createTextNode('Standings'));
 body.appendChild(h);
 
+var button = document.createElement("button");
+button.innerHTML = "Refresh";
+button.onclick = "location.reload(true);";
+body.appendChild(button);
+
+body.appendChild(document.createElement('br'));
+body.appendChild(document.createElement('br'));
+
 // Table 1 ===============================
 var tbl = document.createElement('table');
 tbl.style.width = '600px';
@@ -88,6 +96,9 @@ for (let [k, team] of Object.entries(teams)) {
 }
 body.appendChild(tbl);
 
+
+
+//     <button value="Refresh Page" onClick="window.location.reload(true);"></button>
 
 
 // function timedRefresh(timeoutPeriod) {
