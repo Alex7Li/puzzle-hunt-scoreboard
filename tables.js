@@ -21,9 +21,8 @@ body.appendChild(h);
 // button.innerHTML = "Refresh";
 // button.onclick = "window.location.reload(true);";
 // body.appendChild(button);
-
-body.appendChild(document.createElement('br'));
-body.appendChild(document.createElement('br'));
+// body.appendChild(document.createElement('br'));
+// body.appendChild(document.createElement('br'));
 
 // Table 1 ===============================
 var tbl = document.createElement('table');

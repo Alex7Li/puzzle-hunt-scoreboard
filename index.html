@@ -21,28 +21,10 @@
             padding: 10px;
         }      
     </style>
-    <script type="text/javascript" src="teams.js?random=<?php echo uniqid(); ?>"></script>
-    <script type="text/javascript" src="processing.js"></script>
+    <script type="text/javascript" src="teams.js?nocache=<?php echo uniqid(); ?>"></script>
+    <script type="text/javascript" src="processing.js?nocache=<?php echo uniqid(); ?>"></script>
 </head>
 <body>
     <script type="text/javascript" src="tables.js"></script>
-    <script>
-    // Check if a new cache is available on page load.
-    window.addEventListener('load', function(e) {
-
-    window.applicationCache.addEventListener('updateready', function(e) {
-    if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
-        // Browser downloaded a new app cache.
-        // Swap it in and reload the page to get the new hotness.
-        window.applicationCache.swapCache();
-        if (confirm('A new version of this site is available. Load it?')) {
-        window.location.reload();
-        }
-    } else {
-        // Manifest didn't changed. Nothing new to server.
-    }
-    }, false);
-    }, false);
-    </script>
 </body>
 </html>

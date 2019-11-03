@@ -3,96 +3,96 @@ var teams = {
         "name" : "Team Kush",
         "color" : "#ff0000",
         "eggs" : [
-            /*1*/ {"finder": "B", "found_time": "12:30"},
-            /*2*/ {"finder": "B", "found_time": "12:31"}
+            /*A1*/ {"finder": "B", "found_time": "12:30"},
+            /*A2*/ {"finder": "B", "found_time": "12:31"}
         ]
     },
     "B": {
         "name" : "Tensor",
         "color" : "#00ff00",
         "eggs" : [
-            /*1*/ {"finder": "A", "found_time": "12:50"},
-            /*2*/ {"finder": "D", "found_time": "1:00"}
+            /*B1*/ {"finder": "A", "found_time": "12:50"},
+            /*B2*/ {"finder": "D", "found_time": "1:00"}
         ]
     },
     "C": {
         "name" : "Bastardly FastX Cucks",
         "color" : "#0000ff",
         "eggs" : [
-            /*1*/ {"finder": "D", "found_time": "1:20"},
-            /*2*/ {"finder": null, "found_time": null}
+            /*C1*/ {"finder": "D", "found_time": "1:20"},
+            /*C2*/ {"finder": null, "found_time": null}
         ]
     },
     "D": {
         "name" : "Hilbert's 17th Puzzle",
         "color" : "#ffff00",
         "eggs" : [
-            /*1*/ {"finder": null, "found_time": null},
-            /*2*/ {"finder": null, "found_time": null}
+            /*D1*/ {"finder": null, "found_time": null},
+            /*D2*/ {"finder": null, "found_time": null}
         ]
     },
     "E": {
         "name" : "The subcollective",
         "color" : "#ff00ff",
         "eggs" : [
-            /*1*/ {"finder": "F", "found_time": "3:00"},
-            /*2*/ {"finder": null, "found_time": null}
+            /*E1*/ {"finder": "F", "found_time": "3:00"},
+            /*E2*/ {"finder": null, "found_time": null}
         ]
     },
     "F": {
         "name" : "whtever",
         "color" : "#00ffff",
         "eggs" : [
-            /*1*/ {"finder": null, "found_time": null},
-            /*2*/ {"finder": null, "found_time": null}
+            /*F1*/ {"finder": null, "found_time": null},
+            /*F2*/ {"finder": null, "found_time": null}
         ]
     },
     "G": {
         "name" : "The Invisible Hands",
         "color" : "#000000",
         "eggs" : [
-            /*1*/ {"finder": null, "found_time": null},
-            /*2*/ {"finder": null, "found_time": null}
+            /*G1*/ {"finder": null, "found_time": null},
+            /*G2*/ {"finder": null, "found_time": null}
         ]
     },
     "H": {
         "name" : "Stre3t Ratz",
         "color" : "#ffa500",
         "eggs" : [
-            /*1*/ {"finder": null, "found_time": null},
-            /*2*/ {"finder": null, "found_time": null}
+            /*H1*/ {"finder": null, "found_time": null},
+            /*H2*/ {"finder": null, "found_time": null}
         ]
     },
     "I": {
         "name" : "Zimtschnecke",
         "color" : "#7700bb",
         "eggs" : [
-            /*1*/ {"finder": null, "found_time": null},
-            /*2*/ {"finder": null, "found_time": null}
+            /*I1*/ {"finder": null, "found_time": null},
+            /*I2*/ {"finder": null, "found_time": null}
         ]
     },
     "J": {
         "name" : "Cereal Killers",
         "color" : "#ffffff",
         "eggs" : [
-            /*1*/ {"finder": null, "found_time": null},
-            /*2*/ {"finder": null, "found_time": null}
+            /*J1*/ {"finder": null, "found_time": null},
+            /*J2*/ {"finder": null, "found_time": null}
         ]
     },    
     "K": {
         "name" : "The Lumber Jacks",
         "color" : "#808080",
         "eggs" : [
-            /*1*/ {"finder": null, "found_time": null},
-            /*2*/ {"finder": null, "found_time": null}
+            /*K1*/ {"finder": null, "found_time": null},
+            /*K2*/ {"finder": null, "found_time": null}
         ]
     },
     "L": {
         "name" : "Albertross",
         "color" : "#DEB887",
         "eggs" : [
-            /*1*/ {"finder": null, "found_time": null},
-            /*2*/ {"finder": null, "found_time": null}
+            /*L1*/ {"finder": null, "found_time": null},
+            /*L2*/ {"finder": null, "found_time": null}
         ]
     },
     "GMs": {
