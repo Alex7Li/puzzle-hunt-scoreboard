@@ -9,7 +9,7 @@ var teams = {
     },
     "B": {
         "name" : "Tensor",
-        "color" : "#00ff00",
+        "color" : "#33ff33",
         "eggs" : [
             /*B1*/ {"finder": "A", "found_time": "12:50"},
             /*B2*/ {"finder": "D", "found_time": "1:00"}
@@ -81,18 +81,34 @@ var teams = {
     },    
     "K": {
         "name" : "The Lumber Jacks",
-        "color" : "#808080",
+        "color" : "#999999",
         "eggs" : [
             /*K1*/ {"finder": null, "found_time": null},
             /*K2*/ {"finder": null, "found_time": null}
         ]
     },
     "L": {
-        "name" : "Albertross",
+        "name" : "81 W Norwich",
         "color" : "#DEB887",
         "eggs" : [
             /*L1*/ {"finder": null, "found_time": null},
             /*L2*/ {"finder": null, "found_time": null}
+        ]
+    },
+    "M": {
+        "name" : "One State Solution",
+        "color" : "	#228B22",
+        "eggs" : [
+            /*M1*/ {"finder": null, "found_time": null},
+            /*M2*/ {"finder": null, "found_time": null}
+        ]
+    },
+    "N": {
+        "name" : "JT",
+        "color" : "	#000080",
+        "eggs" : [
+            /*M1*/ {"finder": null, "found_time": null},
+            /*M2*/ {"finder": null, "found_time": null}
         ]
     },
     "GMs": {
