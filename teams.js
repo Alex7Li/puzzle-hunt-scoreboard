@@ -51,7 +51,7 @@ var teams = {
         "name" : "The Invisible Hands",
         "color" : "#000000",
         "eggs" : [
-            /*G1*/ {"finder": null, "found_time": null},
+            /*G1*/ {"finder": "A", "found_time": null},
             /*G2*/ {"finder": null, "found_time": null}
         ]
     },
