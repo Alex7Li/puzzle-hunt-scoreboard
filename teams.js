@@ -43,7 +43,7 @@ var teams = {
         "name" : "whtever",
         "color" : "#00ffff",
         "eggs" : [
-            /*F1*/ {"finder": "G", "found_time": null},
+            /*F1*/ {"finder": null, "found_time": null},
             /*F2*/ {"finder": null, "found_time": null}
         ]
     },
