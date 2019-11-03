@@ -17,10 +17,10 @@ h = document.createElement('h2')
 h.appendChild(document.createTextNode('Standings'));
 body.appendChild(h);
 
-var button = document.createElement("button");
-button.innerHTML = "Refresh";
-button.onclick = "window.location.reload(true);";
-body.appendChild(button);
+// var button = document.createElement("button");
+// button.innerHTML = "Refresh";
+// button.onclick = "window.location.reload(true);";
+// body.appendChild(button);
 
 body.appendChild(document.createElement('br'));
 body.appendChild(document.createElement('br'));
