@@ -17,7 +17,7 @@ var teams = {
     },
     "C": {
         "name" : "Bastardly FastX Cucks",
-        "color" : "#0000ff",
+        "color" : "#4444ff",
         "eggs" : [
             /*C1*/ {"finder": "D", "found_time": "1:20"},
             /*C2*/ {"finder": null, "found_time": null}
@@ -41,7 +41,7 @@ var teams = {
     },
     "F": {
         "name" : "whtever",
-        "color" : "#00ffff",
+        "color" : "#00ffdd",
         "eggs" : [
             /*F1*/ {"finder": null, "found_time": null},
             /*F2*/ {"finder": null, "found_time": null}
@@ -135,6 +135,14 @@ var teams = {
             /*18*/ {"finder": null, "found_time": null},
             /*19*/ {"finder": null, "found_time": null},
             /*20*/ {"finder": null, "found_time": null},
+            /*21*/ {"finder": null, "found_time": null},
+            /*22*/ {"finder": null, "found_time": null},
+            /*23*/ {"finder": null, "found_time": null},
+            /*24*/ {"finder": null, "found_time": null},
+            /*25*/ {"finder": null, "found_time": null},
+            /*26*/ {"finder": null, "found_time": null},
+            /*27*/ {"finder": null, "found_time": null},
+            /*28*/ {"finder": null, "found_time": null},
         ] 
     }
 }
