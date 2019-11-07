@@ -27,7 +27,7 @@ var teams = {
         "name" : "Hilbert's 17th Puzzle",
         "color" : "#ffff00",
         "eggs" : [
-            /*D1*/ {"finder": null, "found_time": null},
+            /*D1*/ {"finder": "E", "found_time": null},
             /*D2*/ {"finder": null, "found_time": null}
         ]
     },
