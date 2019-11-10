@@ -41,7 +41,7 @@ var teams = {
     },
     "F": {
         "name" : "One State Solution",
-        "color" : "	#228B22",
+        "color" : "	#00ffff",
         "eggs" : [
             /*M1*/ {"finder": null, "found_time": null},
             /*M2*/ {"finder": null, "found_time": null}
