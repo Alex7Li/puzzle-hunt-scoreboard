@@ -3,23 +3,23 @@ var teams = {
         "name" : "Team Kush",
         "color" : "#ff0000",
         "eggs" : [
-            /*A1*/ {"finder": "B", "found_time": "12:30"},
-            /*A2*/ {"finder": "B", "found_time": "12:31"}
+            /*A1*/ {"finder": null, "found_time": null},
+            /*A2*/ {"finder": null, "found_time": null}
         ]
     },
     "B": {
         "name" : "Tensor",
         "color" : "#33ff33",
         "eggs" : [
-            /*B1*/ {"finder": "A", "found_time": "12:50"},
-            /*B2*/ {"finder": "D", "found_time": "1:00"}
+            /*B1*/ {"finder": null, "found_time": null},
+            /*B2*/ {"finder": null, "found_time": null}
         ]
     },
     "C": {
         "name" : "Bastardly FastX Cucks",
         "color" : "#4444ff",
         "eggs" : [
-            /*C1*/ {"finder": "D", "found_time": "1:20"},
+            /*C1*/ {"finder": null, "found_time": null},
             /*C2*/ {"finder": null, "found_time": null}
         ]
     },
@@ -27,7 +27,7 @@ var teams = {
         "name" : "Hilbert's 17th Puzzle",
         "color" : "#ffff00",
         "eggs" : [
-            /*D1*/ {"finder": "E", "found_time": null},
+            /*D1*/ {"finder": null, "found_time": null},
             /*D2*/ {"finder": null, "found_time": null}
         ]
     },
@@ -35,7 +35,7 @@ var teams = {
         "name" : "The subcollective",
         "color" : "#ff00ff",
         "eggs" : [
-            /*E1*/ {"finder": "F", "found_time": "3:00"},
+            /*E1*/ {"finder": null, "found_time": null},
             /*E2*/ {"finder": null, "found_time": null}
         ]
     },
@@ -43,15 +43,15 @@ var teams = {
         "name" : "One State Solution",
         "color" : "	#00ffff",
         "eggs" : [
-            /*M1*/ {"finder": null, "found_time": null},
-            /*M2*/ {"finder": null, "found_time": null}
+            /*F1*/ {"finder": null, "found_time": null},
+            /*F2*/ {"finder": null, "found_time": null}
         ]
     },
     "G": {
         "name" : "The Invisible Hands",
         "color" : "#000000",
         "eggs" : [
-            /*G1*/ {"finder": "A", "found_time": null},
+            /*G1*/ {"finder": null, "found_time": null},
             /*G2*/ {"finder": null, "found_time": null}
         ]
     },
