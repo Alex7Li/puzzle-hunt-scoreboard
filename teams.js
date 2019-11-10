@@ -40,11 +40,11 @@ var teams = {
         ]
     },
     "F": {
-        "name" : "whtever",
-        "color" : "#00ffdd",
+        "name" : "One State Solution",
+        "color" : "	#228B22",
         "eggs" : [
-            /*F1*/ {"finder": null, "found_time": null},
-            /*F2*/ {"finder": null, "found_time": null}
+            /*M1*/ {"finder": null, "found_time": null},
+            /*M2*/ {"finder": null, "found_time": null}
         ]
     },
     "G": {
@@ -93,22 +93,6 @@ var teams = {
         "eggs" : [
             /*L1*/ {"finder": null, "found_time": null},
             /*L2*/ {"finder": null, "found_time": null}
-        ]
-    },
-    "M": {
-        "name" : "One State Solution",
-        "color" : "	#228B22",
-        "eggs" : [
-            /*M1*/ {"finder": null, "found_time": null},
-            /*M2*/ {"finder": null, "found_time": null}
-        ]
-    },
-    "N": {
-        "name" : "JT",
-        "color" : "	#000080",
-        "eggs" : [
-            /*M1*/ {"finder": null, "found_time": null},
-            /*M2*/ {"finder": null, "found_time": null}
         ]
     },
     "GMs": {
