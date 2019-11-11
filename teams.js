@@ -1,5 +1,4 @@
-/* GM Clue #21 is currently bounty for */
-
+/* GM Clue #21 is currently bounty for: */
 var bounty_text = "Finding a nontrivial zero of the Riemann Zeta function whose real part is not 1/2.";
 
 var teams = {
