@@ -2,7 +2,7 @@ var teams = {
     "A": {
         "name" : "Team Kush",
         "color" : "#ff0000",
-        "hint used": false,
+        "hint_used": false,
         "eggs" : [
             /*A1*/ {"finder": null, "found_time": null},
             /*A2*/ {"finder": null, "found_time": null}
@@ -11,7 +11,7 @@ var teams = {
     "B": {
         "name" : "Tensor",
         "color" : "#33ff33",
-        "hint used": false,
+        "hint_used": false,
         "eggs" : [
             /*B1*/ {"finder": null, "found_time": null},
             /*B2*/ {"finder": null, "found_time": null}
@@ -20,7 +20,7 @@ var teams = {
     "C": {
         "name" : "Bastardly FastX Cucks",
         "color" : "#4444ff",
-        "hint used": false,
+        "hint_used": false,
         "eggs" : [
             /*C1*/ {"finder": null, "found_time": null},
             /*C2*/ {"finder": null, "found_time": null}
@@ -29,7 +29,7 @@ var teams = {
     "D": {
         "name" : "Hilbert's 17th Puzzle",
         "color" : "#ffff00",
-        "hint used": false,
+        "hint_used": false,
         "eggs" : [
             /*D1*/ {"finder": null, "found_time": null},
             /*D2*/ {"finder": null, "found_time": null}
@@ -38,7 +38,7 @@ var teams = {
     "E": {
         "name" : "The subcollective",
         "color" : "#ff00ff",
-        "hint used": false,
+        "hint_used": false,
         "eggs" : [
             /*E1*/ {"finder": null, "found_time": null},
             /*E2*/ {"finder": null, "found_time": null}
@@ -47,7 +47,7 @@ var teams = {
     "F": {
         "name" : "One State Solution",
         "color" : "	#00ffff",
-        "hint used": false,
+        "hint_used": false,
         "eggs" : [
             /*F1*/ {"finder": null, "found_time": null},
             /*F2*/ {"finder": null, "found_time": null}
@@ -56,7 +56,7 @@ var teams = {
     "G": {
         "name" : "The Invisible Hands",
         "color" : "#000000",
-        "hint used": false,
+        "hint_used": false,
         "eggs" : [
             /*G1*/ {"finder": null, "found_time": null},
             /*G2*/ {"finder": null, "found_time": null}
@@ -65,7 +65,7 @@ var teams = {
     "H": {
         "name" : "Stre3t Ratz",
         "color" : "#ffa500",
-        "hint used": false,
+        "hint_used": false,
         "eggs" : [
             /*H1*/ {"finder": null, "found_time": null},
             /*H2*/ {"finder": null, "found_time": null}
@@ -74,7 +74,7 @@ var teams = {
     "I": {
         "name" : "Zimtschnecke",
         "color" : "#7700bb",
-        "hint used": false,
+        "hint_used": false,
         "eggs" : [
             /*I1*/ {"finder": null, "found_time": null},
             /*I2*/ {"finder": null, "found_time": null}
@@ -83,7 +83,7 @@ var teams = {
     "J": {
         "name" : "Cereal Killers",
         "color" : "#ffffff",
-        "hint used": false,
+        "hint_used": false,
         "eggs" : [
             /*J1*/ {"finder": null, "found_time": null},
             /*J2*/ {"finder": null, "found_time": null}
@@ -92,7 +92,7 @@ var teams = {
     "K": {
         "name" : "The Lumber Jacks",
         "color" : "#999999",
-        "hint used": false,
+        "hint_used": false,
         "eggs" : [
             /*K1*/ {"finder": null, "found_time": null},
             /*K2*/ {"finder": null, "found_time": null}
@@ -101,7 +101,7 @@ var teams = {
     "L": {
         "name" : "81 W Norwich",
         "color" : "#DEB887",
-        "hint used": false,
+        "hint_used": false,
         "eggs" : [
             /*L1*/ {"finder": null, "found_time": null},
             /*L2*/ {"finder": null, "found_time": null}
