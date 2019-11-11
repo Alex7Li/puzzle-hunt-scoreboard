@@ -98,7 +98,7 @@ var teams = {
         "hint_used": false,
         "eggs" : [
             /*K1*/ {"finder": null, "found_time": null},
-            /*K2*/ {"finder": null, "found_time": null}
+            /*K2*/ {"finder": "A", "found_time": "4:30"}
         ]
     },
     "L": {
