@@ -1,5 +1,5 @@
 /* GM Clue #21 is currently bounty for: */
-var bounty_text = "Limited Time Offer: Solving GM clue #3 will get you GM chain #21 for free!";
+var bounty_text = "Offer changed: GM Clue #2 now also earns you GM Chain 21";
 
 var teams = {
     "A": {
