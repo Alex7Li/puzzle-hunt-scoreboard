@@ -121,7 +121,7 @@ var teams = {
             /* 5*/ {"finder": "A", "found_time": "12:46"},
             /* 6*/ {"finder": "E", "found_time": "3:45"},
             /* 7*/ {"finder": "D", "found_time": "1:35"},
-            /* 8*/ {"finder": null, "found_time": null},
+            /* 8*/ {"finder": "B", "found_time": "5:40"},
             /* 9*/ {"finder": null, "found_time": null},
             /*10*/ {"finder": "J", "found_time": "3:44"},
             /*11*/ {"finder": null, "found_time": null},
