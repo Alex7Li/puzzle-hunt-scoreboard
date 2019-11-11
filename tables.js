@@ -89,8 +89,14 @@ for (let [k, team] of Object.entries(teams)) {
             td.rowSpan = team.eggs.length;
             tr.className = "border_top";
         }
-        tr.insertCell().appendChild(document.createTextNode(i+1));
-        tr.insertCell().appendChild(egg.finder == null? document.createTextNode("\u2014") : color_name(egg.finder));
+        if(k == "GMs" && i==18 && egg.finder==null){
+            link = document.createElement("a");
+            link.innerHTML = "<a href=https://defuse.ca/b/DRbUMDTywiTGMbENXSbMyP>19</a>";
+            tr.insertCell().appendChild(link);
+        } else {
+            tr.insertCell().appendChild(document.createTextNode(i+1));
+        }
+            tr.insertCell().appendChild(egg.finder == null? document.createTextNode("\u2014") : color_name(egg.finder));
         tr.insertCell().appendChild(document.createTextNode(egg.found_time == null ? "\u2014" : egg.found_time));
     }
 }
