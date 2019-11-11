@@ -32,7 +32,7 @@ var teams = {
     "D": {
         "name" : "Hilbert's 17th Puzzle",
         "color" : "#ffff00",
-        "hint_used": false,
+        "hint_used": true,
         "eggs" : [
             /*D1*/ {"finder": "H", "found_time": "12:32"},
             /*D2*/ {"finder": "K", "found_time": "1:58"}
@@ -86,7 +86,7 @@ var teams = {
     "J": {
         "name" : "The Lumber Jacks",
         "color" : "#999999",
-        "hint_used": false,
+        "hint_used": true,
         "eggs" : [
             /*J1*/ {"finder": null, "found_time": null},
             /*J2*/ {"finder": null, "found_time": null}
