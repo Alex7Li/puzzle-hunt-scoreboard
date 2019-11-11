@@ -107,7 +107,7 @@ var teams = {
         "hint_used": false,
         "eggs" : [
             /*L1*/ {"finder": "C", "found_time": "1:33"},
-            /*L2*/ {"finder": null, "found_time": null}
+            /*L2*/ {"finder": "G", "found_time": "1:48"}
         ]
     },
     "GMs": {
