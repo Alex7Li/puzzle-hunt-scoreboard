@@ -79,7 +79,7 @@ var teams = {
         "color" : "#ffffff",
         "hint_used": false,
         "eggs" : [
-            /*I1*/ {"finder": null, "found_time": null},
+            /*I1*/ {"finder": "J", "found_time": "2:39},
             /*I2*/ {"finder": null, "found_time": null}
         ]
     },    
