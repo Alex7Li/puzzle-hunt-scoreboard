@@ -45,8 +45,8 @@ var teams = {
         ]
     },
     "F": {
-        "name" : "One State Solution",
-        "color" : "	#00ffff",
+        "name" : "The Invisible Hands",
+        "color" : "#000000",
         "hint_used": false,
         "eggs" : [
             /*F1*/ {"finder": null, "found_time": null},
@@ -54,8 +54,8 @@ var teams = {
         ]
     },
     "G": {
-        "name" : "The Invisible Hands",
-        "color" : "#000000",
+        "name" : "Stre3t Ratz",
+        "color" : "#ffa500",
         "hint_used": false,
         "eggs" : [
             /*G1*/ {"finder": null, "found_time": null},
@@ -63,8 +63,8 @@ var teams = {
         ]
     },
     "H": {
-        "name" : "Stre3t Ratz",
-        "color" : "#ffa500",
+        "name" : "Zimtschnecke",
+        "color" : "#7700bb",
         "hint_used": false,
         "eggs" : [
             /*H1*/ {"finder": null, "found_time": null},
@@ -72,26 +72,26 @@ var teams = {
         ]
     },
     "I": {
-        "name" : "Zimtschnecke",
-        "color" : "#7700bb",
+        "name" : "Cereal Killers",
+        "color" : "#ffffff",
         "hint_used": false,
         "eggs" : [
             /*I1*/ {"finder": null, "found_time": null},
             /*I2*/ {"finder": null, "found_time": null}
         ]
-    },
+    },    
     "J": {
-        "name" : "Cereal Killers",
-        "color" : "#ffffff",
+        "name" : "The Lumber Jacks",
+        "color" : "#999999",
         "hint_used": false,
         "eggs" : [
             /*J1*/ {"finder": null, "found_time": null},
             /*J2*/ {"finder": null, "found_time": null}
         ]
-    },    
+    },
     "K": {
-        "name" : "The Lumber Jacks",
-        "color" : "#999999",
+        "name" : "81 W Norwich",
+        "color" : "#DEB887",
         "hint_used": false,
         "eggs" : [
             /*K1*/ {"finder": null, "found_time": null},
@@ -99,8 +99,8 @@ var teams = {
         ]
     },
     "L": {
-        "name" : "81 W Norwich",
-        "color" : "#DEB887",
+        "name" : "One State Solution",
+        "color" : "	#00ffff",
         "hint_used": false,
         "eggs" : [
             /*L1*/ {"finder": null, "found_time": null},
