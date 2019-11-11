@@ -50,7 +50,7 @@ var teams = {
     "F": {
         "name" : "The Invisible Hands",
         "color" : "#000000",
-        "hint_used": false,
+        "hint_used": true,
         "eggs" : [
             /*F1*/ {"finder": "L", "found_time": "1:20"},
             /*F2*/ {"finder": "L", "found_time": "12:57"}
