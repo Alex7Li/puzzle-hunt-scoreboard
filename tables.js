@@ -26,7 +26,7 @@ body.appendChild(h);
 
 // Table 1 ===============================
 var tbl = document.createElement('table');
-tbl.style.width = '600px';
+tbl.style.width = '675px';
 tbl.style.border = '2px solid black';
 
 var th = tbl.createTHead();
@@ -37,6 +37,7 @@ tr.insertCell().innerHTML = "<b>Score</b>";
 tr.insertCell().innerHTML = "<b>Team Clues</b>";
 tr.insertCell().innerHTML = "<b>GM Clues</b>";
 tr.insertCell().innerHTML = "<b>Time</b>";
+tr.insertCell().innerHTML = "<b>Hint</b>";
 
 for(var i=0; i<sorted_teams.length; i++){
     k = sorted_teams[i];
@@ -55,7 +56,7 @@ for(var i=0; i<sorted_teams.length; i++){
     tr.insertCell().appendChild(document.createTextNode(team_thing_count));
     tr.insertCell().appendChild(document.createTextNode(gm_thing_count));
     tr.insertCell().appendChild(document.createTextNode(find_time == null ? "\u2014": find_time));
-
+    tr.insertCell().appendChild(document.createTextNode(team.hint_used ? "Used": "Unused"));
 }
 body.appendChild(tbl);
 
