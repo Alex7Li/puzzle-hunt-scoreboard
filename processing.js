@@ -1,6 +1,6 @@
 function minutes_since_noon(timestr) {
     if(timestr == null){
-        return 0;
+        return -1;
     }
     var hrs_mins = timestr.split(":");
     var hrs = parseInt(hrs_mins[0]);
