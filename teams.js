@@ -95,7 +95,7 @@ var teams = {
     "K": {
         "name" : "81 W Norwich",
         "color" : "#DEB887",
-        "hint_used": false,
+        "hint_used": true,
         "eggs" : [
             /*K1*/ {"finder": null, "found_time": null},
             /*K2*/ {"finder": "A", "found_time": "4:30"}
