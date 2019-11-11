@@ -53,7 +53,7 @@ var teams = {
         "hint_used": false,
         "eggs" : [
             /*F1*/ {"finder": null, "found_time": null},
-            /*F2*/ {"finder": null, "found_time": null}
+            /*F2*/ {"finder": "L", "found_time": "12:57"}
         ]
     },
     "G": {
