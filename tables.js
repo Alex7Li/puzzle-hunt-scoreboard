@@ -106,7 +106,7 @@ permanode = document.createElement("p");
 permanode.innerHTML = "GM Clue #21 is currently bounty for:";
 body.appendChild(permanode);
 node = document.createElement("p");
-node.innerHTML = "Finding a nontrivial zero of the Riemann zeta function whose real part is not 1/2.";
+node.innerHTML = bounty_text;
 body.appendChild(node);
 
 
