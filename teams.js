@@ -59,7 +59,7 @@ var teams = {
     "G": {
         "name" : "Stre3t Ratz",
         "color" : "#ffa500",
-        "hint_used": false,
+        "hint_used": true,
         "eggs" : [
             /*G1*/ {"finder": "I", "found_time": "4:24"},
             /*G2*/ {"finder": "J", "found_time": "1:43"}
