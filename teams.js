@@ -1,5 +1,5 @@
 /* GM Clue #21 is currently bounty for: */
-var bounty_text = "Finding a nontrivial zero of the Riemann Zeta function whose real part is not 1/2.";
+var bounty_text = "Solving GM clue #3 will get you GM chain #21 for free!";
 
 var teams = {
     "A": {
