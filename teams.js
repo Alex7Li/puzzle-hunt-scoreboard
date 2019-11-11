@@ -52,7 +52,7 @@ var teams = {
         "color" : "#000000",
         "hint_used": false,
         "eggs" : [
-            /*F1*/ {"finder": null, "found_time": null},
+            /*F1*/ {"finder": "L", "found_time": "1:20"},
             /*F2*/ {"finder": "L", "found_time": "12:57"}
         ]
     },
