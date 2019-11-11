@@ -5,7 +5,7 @@ var teams = {
     "A": {
         "name" : "Team Kush",
         "color" : "#ff0000",
-        "hint_used": false,
+        "hint_used": true,
         "eggs" : [
             /*A1*/ {"finder": null, "found_time": null},
             /*A2*/ {"finder": null, "found_time": null}
