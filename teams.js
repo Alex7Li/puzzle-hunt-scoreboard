@@ -116,7 +116,7 @@ var teams = {
         "eggs" : [
             /* 1*/ {"finder": null, "found_time": null},
             /* 2*/ {"finder": null, "found_time": null},
-            /* 3*/ {"finder": null, "found_time": null},
+            /* 3*/ {"finder": "B", "found_time": "6:46"},
             /* 4*/ {"finder": null, "found_time": null},
             /* 5*/ {"finder": "A", "found_time": "12:46"},
             /* 6*/ {"finder": "E", "found_time": "3:45"},
