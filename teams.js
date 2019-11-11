@@ -17,7 +17,7 @@ var teams = {
         "hint_used": false,
         "eggs" : [
             /*B1*/ {"finder": null, "found_time": null},
-            /*B2*/ {"K": null, "found_time": "1:26"}
+            /*B2*/ {"finder": "K", "found_time": "1:26"}
         ]
     },
     "C": {
@@ -79,8 +79,8 @@ var teams = {
         "color" : "#ffffff",
         "hint_used": false,
         "eggs" : [
-            /*I1*/ {"finder": null, "found_time": null},
-            /*I2*/ {"finder": null, "found_time": null}
+            /*I1*/ {"finder": "J", "found_time": "2:39"},
+            /*I2*/ {"finder": "J", "found_time": "2:55"}
         ]
     },    
     "J": {
