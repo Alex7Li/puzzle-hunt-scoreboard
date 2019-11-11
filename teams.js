@@ -7,7 +7,7 @@ var teams = {
         "color" : "#ff0000",
         "hint_used": true,
         "eggs" : [
-            /*A1*/ {"finder": null, "found_time": null},
+            /*A1*/ {"finder": "B", "found_time": "3:25"},
             /*A2*/ {"finder": null, "found_time": null}
         ]
     },
