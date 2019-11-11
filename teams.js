@@ -100,7 +100,7 @@ var teams = {
     },
     "L": {
         "name" : "One State Solution",
-        "color" : "	#00ffff",
+        "color" : "#00ffff",
         "hint_used": false,
         "eggs" : [
             /*L1*/ {"finder": null, "found_time": null},

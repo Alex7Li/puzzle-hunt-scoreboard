@@ -102,6 +102,15 @@ for (let [k, team] of Object.entries(teams)) {
 }
 body.appendChild(tbl);
 
+permanode = document.createElement("p");
+permanode.innerHTML = "GM Clue #21 is currently bounty for:";
+body.appendChild(permanode);
+node = document.createElement("p");
+node.innerHTML = "Finding a nontrivial zero of the Riemann zeta function whose real part is not 1/2.";
+body.appendChild(node);
+
+
+
 
 
 //     <button value="Refresh Page" onClick="window.location.reload(true);"></button>
