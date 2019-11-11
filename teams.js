@@ -80,7 +80,7 @@ var teams = {
         "hint_used": false,
         "eggs" : [
             /*I1*/ {"finder": "J", "found_time": "2:39"},
-            /*I2*/ {"finder": null, "found_time": null}
+            /*I2*/ {"finder": "J", "found_time": "2:55"}
         ]
     },    
     "J": {
