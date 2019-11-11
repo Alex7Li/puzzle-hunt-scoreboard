@@ -44,7 +44,7 @@ var teams = {
         "hint_used": false,
         "eggs" : [
             /*E1*/ {"finder": "H", "found_time": "12:25"},
-            /*E2*/ {"finder": null, "found_time": null}
+            /*E2*/ {"finder": "K", "found_time": "6:35"}
         ]
     },
     "F": {
