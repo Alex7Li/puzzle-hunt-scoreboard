@@ -23,7 +23,7 @@ var teams = {
     "C": {
         "name" : "Bastardly FastX Cucks",
         "color" : "#4444ff",
-        "hint_used": false,
+        "hint_used": true,
         "eggs" : [
             /*C1*/ {"finder": null, "found_time": null},
             /*C2*/ {"finder": null, "found_time": null}
@@ -114,11 +114,11 @@ var teams = {
         "name" : "GMs",
         "color" : "#000000",
         "eggs" : [
-            /* 1*/ {"finder": null, "found_time": null},
+            /* 1*/ {"finder": "A", "found_time": "7:12"},
             /* 2*/ {"finder": null, "found_time": null},
             /* 3*/ {"finder": "B", "found_time": "6:46"},
             /* 4*/ {"finder": null, "found_time": null},
-            /* 5*/ {"finder": "A", "found_time": "12:46"},
+            /* 5*/ {"finder": "C", "found_time": "12:46"},
             /* 6*/ {"finder": "E", "found_time": "3:45"},
             /* 7*/ {"finder": "D", "found_time": "1:35"},
             /* 8*/ {"finder": "B", "found_time": "5:40"},
@@ -134,7 +134,7 @@ var teams = {
             /*18*/ {"finder": null, "found_time": null},
             /*19*/ {"finder": null, "found_time": null},
             /*20*/ {"finder": null, "found_time": null},
-            /*21*/ {"finder": null, "found_time": null},
+            /*21*/ {"finder": "A", "found_time": "7:12"},
             /*22*/ {"finder": "E", "found_time": "6:40"},
             /*23*/ {"finder": "E", "found_time": "6:40"},
             /*24*/ {"finder": "H", "found_time": "6:40"},
