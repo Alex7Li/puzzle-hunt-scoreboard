@@ -41,7 +41,7 @@ var teams = {
     "E": {
         "name" : "The subcollective",
         "color" : "#ff00ff",
-        "hint_used": false,
+        "hint_used": true,
         "eggs" : [
             /*E1*/ {"finder": "H", "found_time": "12:25"},
             /*E2*/ {"finder": "K", "found_time": "6:35"}
@@ -68,7 +68,7 @@ var teams = {
     "H": {
         "name" : "Zimtschnecke",
         "color" : "#7700bb",
-        "hint_used": false,
+        "hint_used": true,
         "eggs" : [
             /*H1*/ {"finder": null, "found_time": null},
             /*H2*/ {"finder": null, "found_time": null}
