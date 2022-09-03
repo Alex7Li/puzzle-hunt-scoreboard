@@ -102,16 +102,11 @@ async function makeTables() {
         tr.className = "border_top";
       }
       first = false
-      if (k == "GMs" && eggname == "Hidden 1" && !egg.finder) {
+      if (k == "GMs" && eggname == "Hidden Link" && !egg.finder) {
         let link = document.createElement("a");
         link.className = "hidden"
-        link.href = "https://defuse.ca/b/DRbUMDTywiTGMbENXSbMyP"
-        link.appendChild(document.createTextNode("Hidden 1"))
-        tr.insertCell().appendChild(link);
-      } else if (k == "GMs" && eggname == "Secur" && !egg.finder) {
-        let link = document.createElement("a");
-        link.href = "https://defuse.ca/b/DRbUMDTywiTGMbENXSbMyP"
-        link.appendChild(document.createTextNode("Hidden 1"))
+        link.href = "https://imgur.com/8UwC5dU"
+        link.appendChild(document.createTextNode("Hidden Link"))
         tr.insertCell().appendChild(link);
       } else {
         tr.insertCell().appendChild(document.createTextNode(eggname));
@@ -132,7 +127,7 @@ async function makeTables() {
   body.appendChild(cluePDF);
 
   let timerElement = document.createElement('p')
-  let startTime = new Date('2022/09/03 12:00:00')
+  let startTime = new Date('2022/09/03 12:36:00')
   setInterval(() => {
     const now = new Date()
     const diff_ms = (now - startTime);

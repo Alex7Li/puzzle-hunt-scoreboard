@@ -20,7 +20,7 @@ async function getTeams() {
 async function getStats() {
   const teams = await getTeams()
   // https://mokole.com/palette.html
-  let colors = distinctColors(Object.keys(teams).length)
+  let colors = distinctColors({count:Object.keys(teams).length})
 
   const scores = {}
   const last_egg_time = {}

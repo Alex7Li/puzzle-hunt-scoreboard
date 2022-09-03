@@ -5,8 +5,10 @@
   "main": "./dist/index.js",
   "scripts": {
     "start": "firebase emulators:start",
+    "dev": "node ./node_modules/parcel-bundler/bin/cli serve ./src/public/index.html --port 8080",
     "deploy": "firebase deploy",
     "build": "webpack --mode=development",
+    "build_prod": "webpack --mode=production",
     "lint": "node ./node_modules/eslint/bin/eslint . --ext .js --fix"
   },
   "repository": {
@@ -32,7 +34,9 @@
     "distinct-colors": "^3.0.0",
     "firebase": "^9.8.4",
     "firebase-admin": "^11.0.0",
+    "js-levenshtein": "^1.1.6",
     "path": "^0.12.7",
+    "random-seed": "^0.3.0",
     "serve-favicon": "^2.5.0"
   }
 }
