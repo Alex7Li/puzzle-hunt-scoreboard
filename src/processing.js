@@ -64,6 +64,9 @@ async function getStats() {
       if (scores[a] != scores[b]) {
         return scores[a] > scores[b] ? -1 : 1;
       }
+      if (team_eggs[a] != team_eggs[b]) {
+        return team_eggs[a] > team_eggs[b] ? -1 : 1;
+      }
       var mins_a = time_in_minutes(last_egg_time[a]);
       var mins_b = time_in_minutes(last_egg_time[b]);
       if (mins_a != mins_b) {

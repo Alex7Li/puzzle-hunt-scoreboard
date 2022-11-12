@@ -6,7 +6,14 @@ import { db } from './firebase'
 function color_name(letter, teams) {
   const node = document.createElement("p");
   const r = 14
-  node.innerHTML = '<svg width="' + r + '" height="14"><rect width="14" height="14" style="fill:' + teams[letter].color + ';stroke-width:3;stroke:rgb(0,0,0)" /></svg> ' + teams[letter].name;
+  console.log("letter ")
+  console.log(letter)
+  let color = teams[letter]?.color
+  if (!color) {
+    color = "#000000"
+  }
+  console.log(color)
+  node.innerHTML = '<svg width="' + r + '" height="14"><rect width="14" height="14" style="fill:' + color + ';stroke-width:3;stroke:rgb(0,0,0)" /></svg> ' + teams[letter].name;
   return node;
 }
 
@@ -46,6 +53,9 @@ async function makeTables() {
     const team = teams[k];
     if (k == "GMs") {
       continue;
+    }
+    if (team == undefined){
+      continue
     }
     let tbl_row = tbl.insertRow();
     tbl_row.insertCell().appendChild(document.createTextNode(i + 1));
@@ -127,15 +137,15 @@ async function makeTables() {
   body.appendChild(cluePDF);
 
   let timerElement = document.createElement('p')
-  let startTime = new Date('2022/09/03 12:36:00')
+  let startTime = new Date('2022/09/03 12:40:00')
   setInterval(() => {
     const now = new Date()
     const diff_ms = (now - startTime);
     const diff_s = Math.round(Math.abs(diff_ms) / 1000)
     const s = diff_s % 60;
-    const diff_m = Math.round(diff_s / 60)
+    const diff_m = Math.floor(diff_s / 60)
     const m = diff_m % 60;
-    const diff_h = Math.round(diff_m / 60)
+    const diff_h = Math.floor(diff_m / 60)
     if (diff_ms > 0) {
       timerElement.innerHTML = `Time since contest has started: ${diff_h} hours, ${m} minutes ${s} seconds`;
     } else {
