@@ -1,0 +1,21 @@
+html {box-sizing: border-box;}
+*,*:before,*:after {box-sizing: inherit;}
+tr.border_top td {border-top:1pt solid #999;}
+table { 
+    border-collapse: collapse; 
+    font-family: 'Source Code Pro', monospace;
+}
+h2 {font-family: 'Oswald', sans-serif;}
+div.content { 
+    width: 725px;
+    margin: 0 auto;
+    padding: 10px;
+}
+a.hidden:link {/* uwu what's this? */
+    text-decoration: none;
+    color: black;
+}
+a.hidden:visited {
+    color: red;
+}
+p {font-family: 'Source Code Pro', monospace}
