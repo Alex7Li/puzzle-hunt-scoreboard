@@ -137,7 +137,7 @@ async function makeTables() {
   body.appendChild(cluePDF);
 
   let timerElement = document.createElement('p')
-  let startTime = new Date('2022/09/03 12:40:00')
+  let startTime = new Date('2023/04/09 12:05:00')
   setInterval(() => {
     const now = new Date()
     const diff_ms = (now - startTime);
