@@ -19,3 +19,29 @@ a.hidden:visited {
     color: red;
 }
 p {font-family: 'Source Code Pro', monospace}
+.tooltip {
+  position: relative;
+  inline-size: max-content;
+  /* border-bottom: 1px dotted black; */
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  margin-left: 1px;
+
+  /* Position the tooltip */
+  position: absolute;
+  left: 0%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+td {
+  max-width: 100px;
+  overflow: hidden;
+}

@@ -1,0 +1,235 @@
+{
+  "extra_text": "The market has crashed! Nothing is left! You all got all the coins",
+  "teams": {
+    "A": {
+      "eggs": {
+        "2:30": {
+          "finder": "D",
+          "found_time": "4:37"
+        },
+        "Introspection": {
+          "finder": "D",
+          "found_time": "5:40"
+        }
+      },
+      "hint_used": true,
+      "name": "Team Booty"
+    },
+    "B": {
+      "eggs": {
+        "Chai Sutta 1": {
+          "finder": "F",
+          "found_time": "1:48"
+        },
+        "Chai Sutta 2": {
+          "finder": "G",
+          "found_time": "5:12"
+        },
+        "Chai Sutta 3": {
+          "finder": "G",
+          "found_time": "2:01"
+        }
+      },
+      "hint_used": true,
+      "name": "Team Chai Sutta"
+    },
+    "D": {
+      "eggs": {
+        "Imperialism": {
+          "finder": "H",
+          "found_time": "5:05"
+        },
+        "Presidential Hunt": {
+          "finder": "A",
+          "found_time": "2:59"
+        },
+        "Welcome to the Dragon's Gates": {
+          "finder": "G",
+          "found_time": "3:10"
+        }
+      },
+      "hint_used": true,
+      "name": "Team Tilbury"
+    },
+    "F": {
+      "eggs": {
+        "Buffaloes 1": {
+          "finder": "B",
+          "found_time": "1:04"
+        },
+        "Buffaloes 2": {
+          "finder": "G",
+          "found_time": "2:09"
+        },
+        "Buffaloes 3": {
+          "finder": "J",
+          "found_time": "1:00"
+        }
+      },
+      "hint_used": true,
+      "name": "Team Buffaloes"
+    },
+    "G": {
+      "eggs": {
+        "Music to my Ears": {
+          "finder": "F",
+          "found_time": "4:59"
+        },
+        "West Coast Sherlocks 1": {
+          "finder": "I",
+          "found_time": "5:35"
+        }
+      },
+      "hint_used": true,
+      "name": "Team West Coast Sherlocks"
+    },
+    "GMs": {
+      "color": "#000000",
+      "eggs": {
+        "Arbitrage": {
+          "finder": "A",
+          "found_time": "6:47"
+        },
+        "Crossword Teamwork": {
+          "finder": "J",
+          "found_time": "2:04"
+        },
+        "Expert Presentation 1": {
+          "finder": "J",
+          "found_time": "4:00"
+        },
+        "Expert Presentation 2": {
+          "finder": "H",
+          "found_time": "4:00"
+        },
+        "Expert Presentation 3": {
+          "finder": "B",
+          "found_time": "4:00"
+        },
+        "Find the Difference": {
+          "finder": "A",
+          "found_time": "5:07"
+        },
+        "Forgotten Password": {
+          "finder": "I",
+          "found_time": "2:37"
+        },
+        "Hidden Link": {
+          "finder": "H",
+          "found_time": "5:12"
+        },
+        "Lost in Transmission": {
+          "finder": "F",
+          "found_time": "6:32"
+        },
+        "Nagelbalk": {
+          "finder": "A",
+          "found_time": "5:28"
+        },
+        "Poetry Slam!": {
+          "finder": "F",
+          "found_time": "3:33"
+        },
+        "Puzzle What?": {
+          "finder": "D",
+          "found_time": "6:28"
+        },
+        "Secret Sauce": {
+          "finder": "B",
+          "found_time": "1:29"
+        },
+        "Spam Message": {
+          "finder": "H",
+          "found_time": "4:55"
+        },
+        "Sudoku": {
+          "finder": "F",
+          "found_time": "3:30"
+        },
+        "Supply and Demand": {
+          "finder": "A",
+          "found_time": "6:47"
+        },
+        "Throwback to Disney": {
+          "finder": "J",
+          "found_time": "4:53"
+        },
+        "Treasure Under the Punching bag": {
+          "finder": "A",
+          "found_time": "1:07"
+        },
+        "Very Incomprehensible Message": {
+          "finder": "I",
+          "found_time": "3:49"
+        },
+        "Visiting the Masters": {
+          "finder": "H",
+          "found_time": "2:23"
+        },
+        "What does the F say?": {
+          "finder": "F",
+          "found_time": "4:38"
+        },
+        "Wordsearch": {
+          "finder": "H",
+          "found_time": "2:10"
+        },
+        "Your daily does of exercise 2": {
+          "finder": "I",
+          "found_time": "3:00"
+        },
+        "Your daily dose of exercise": {
+          "finder": "H",
+          "found_time": "3:00"
+        }
+      },
+      "name": "GMs"
+    },
+    "H": {
+      "eggs": {
+        "Air Jordan 1": {
+          "finder": "D",
+          "found_time": "3:21"
+        },
+        "Air Jordan 2": {
+          "finder": "G",
+          "found_time": "1:40"
+        },
+        "Founders Mom": {
+          "finder": "B",
+          "found_time": "1:35"
+        }
+      },
+      "hint_used": true,
+      "name": "Team Air Jordan"
+    },
+    "I": {
+      "eggs": {
+        "3 Loko 1": {
+          "finder": "G",
+          "found_time": "1:26"
+        },
+        "3 Loko 2": {
+          "finder": "F",
+          "found_time": "2:51"
+        },
+        "3 Loko 3": {
+          "finder": "A",
+          "found_time": "1:33"
+        }
+      },
+      "hint_used": true,
+      "name": "Team 3 Loko"
+    },
+    "J": {
+      "eggs": {
+        "Dice Dice Baby": {
+          "finder": "A",
+          "found_time": "2:11"
+        }
+      },
+      "hint_used": true,
+      "name": "Team High Land"
+    }
+  }
+}

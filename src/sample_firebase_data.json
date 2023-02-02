@@ -1,0 +1,72 @@
+{
+  "extra_text": "The market has crashed! Nothing is left! You all got all the coins",
+  "teams": {
+    "TeamName1": {
+      "eggs": {
+        "Egg1": {
+          "finders": ["TeamName2", "", ""],
+          "find_times": ["1:12", "", ""]
+        },
+        "Egg2": {
+          "finders": ["", "", ""],
+          "find_times": ["", "", ""]
+        }
+      },
+      "hints_used": 0
+    },
+    "TeamName2": {
+      "eggs": {
+        "Egg1": {
+          "finders": ["TeamName1", "", ""],
+          "find_times": ["0:48", "", ""]
+        },
+        "Egg2": {
+          "finders": ["", "", ""],
+          "find_times": ["", "", ""]
+        }
+      },
+      "hints_used": 0
+    },
+    "LongLongTeamName3": {
+      "eggs": {
+        "Egg1": {
+          "finders": ["TeamName1", "TeamName2", "TeamName4"],
+          "find_times": ["0:49", "1:11", "2:22"]
+        },
+        "Egg2": {
+          "finders": ["", "", ""],
+          "find_times": ["", "", ""]
+        }
+      },
+      "hints_used": 0
+    },
+    "TeamName4": {
+      "eggs": {
+        "Egg1": {
+          "finders": ["TeamName1", "", ""],
+          "find_times": ["0:48", "", ""]
+        },
+        "Egg2": {
+          "finders": ["", "", ""],
+          "find_times": ["", "", ""]
+        }
+      },
+      "hints_used": 0
+    },
+    "GMs": {
+      "color": "#000000",
+      "eggs": {
+        "Egg1": {
+          "finders": ["TeamName1", "TeamName2", ""],
+          "find_times": ["3:22", "4:10", ""]
+        },
+        "EggWithCustomPointValues": {
+          "finders": ["TeamName1", "TeamName2", "LongLongTeamName3"],
+          "find_times": ["3:22", "4:10", "4:40"],
+          "point_values": [2, 2, 2]
+        }
+      },
+      "name": "GMs"
+    }
+  }
+}
