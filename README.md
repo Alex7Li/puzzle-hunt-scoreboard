@@ -4,13 +4,15 @@
 
 ## Development
 
+Setup .env file
+
 [Firebase project](https://console.firebase.google.com/u/0/project/cmu-puzzle-hunt/database/cmu-puzzle-hunt-default-rtdb/data)
 
 If you want to add new files,
 make sure to edit the webpack.config.js to link them correctly, or it
 will not work.
 
-#### Local testing
+### Local testing
 
 ```bash
 npm install
@@ -18,7 +20,7 @@ npm run build
 npm start
 ```
 
-#### Deploy to cloud
+### Deploy to cloud
 
 ```bash
 npm run build_prod

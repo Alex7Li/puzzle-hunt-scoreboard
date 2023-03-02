@@ -20,11 +20,39 @@ async function getExtraText() {
   return snapshot.val()['extra_text']
 }
 
+async function try_password(code) {
+  const dbRef = ref(db)
+  const snapshot = await get(dbRef, "Password_data");
+  const pval = snapshot.val()["Password_data"]
+  return pval[code]
+}
+
 async function makeTables() {
+  console.warn("YOU DO NOT NEED THE CONSOLE FOR ANY CLUE. PLEASE DO NOT HACK THIS SITE.")
   const [scores, points_remaining, last_egg_time, sorted_teams, solved, teams] = await getStats()
   let body = document.createElement('div');
   body.className = "content";
   document.body.appendChild(body);
+
+  // PASSWORD SUBMISSION
+
+  const pass_input = document.createElement('input', {type: "text"})
+  pass_input.id = "password_input"
+  const submit_btn = document.createElement('button')
+  submit_btn.innerHTML = "Submit password"
+  const response_text = document.createElement('p');
+  submit_btn.onclick = async () => {
+    const try_pass = document.getElementById('password_input').value;
+    const response = await try_password(try_pass);
+    if (response != undefined) {
+      response_text.innerHTML = response;
+    }
+  };
+  body.appendChild(pass_input)
+  body.appendChild(submit_btn)
+  body.appendChild(response_text)
+  
+  // STANDINGS
 
   let h = document.createElement('h2')
   h.appendChild(document.createTextNode('Standings'));

@@ -1,6 +1,13 @@
 import { initializeApp } from 'firebase/app';
 import { getDatabase } from "firebase/database";
 
+// PLEASE DON'T READ THE DATABASE TO TRY AND SOLVE THE CLUES
+// IT IS NOT WORTH IT FOR ME TO SPEND 10 HOURS TRYING TO
+// IMPROVE SECURITY TO THE POINT WHERE YOU CANNOT HACK IT IN 2 HOURS.
+// If you think that it's terrible for such a
+// contest to have shitty security, please just submit
+// a pull request to the github. If you have an uncontrollable
+// urge to hack the website, do it after the contest.
 const firebaseConfig = {
   apiKey: process.env.firebase_api_key,
   authDomain: "cmu-puzzle-hunt.firebaseapp.com",

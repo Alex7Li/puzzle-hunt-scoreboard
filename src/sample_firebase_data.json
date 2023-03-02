@@ -1,15 +1,98 @@
 {
-  "extra_text": "The market has crashed! Nothing is left! You all got all the coins",
+  "Password_data": {
+    "password": "hidden in LOCATION"
+  },
+  "extra_text": "🚧Development Mode 🚧",
   "teams": {
+    "GMs": {
+      "color": "#000000",
+      "eggs": {
+        "Egg1": {
+          "find_times": [
+            "3:22",
+            "4:10",
+            ""
+          ],
+          "finders": [
+            "TeamName1",
+            "TeamName2",
+            ""
+          ]
+        },
+        "EggWithCustomPointValues": {
+          "find_times": [
+            "3:22",
+            "4:10",
+            "4:40"
+          ],
+          "finders": [
+            "TeamName1",
+            "TeamName2",
+            "LongLongTeamName3"
+          ],
+          "point_values": [
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      "name": "GMs"
+    },
+    "LongLongTeamName3": {
+      "eggs": {
+        "Egg1": {
+          "find_times": [
+            "0:49",
+            "1:11",
+            "2:22"
+          ],
+          "finders": [
+            "TeamName1",
+            "TeamName2",
+            "TeamName4"
+          ]
+        },
+        "Egg2": {
+          "find_times": [
+            "",
+            "",
+            ""
+          ],
+          "finders": [
+            "",
+            "",
+            ""
+          ]
+        }
+      },
+      "hints_used": 0
+    },
     "TeamName1": {
       "eggs": {
         "Egg1": {
-          "finders": ["TeamName2", "", ""],
-          "find_times": ["1:12", "", ""]
+          "find_times": [
+            "1:12",
+            "",
+            ""
+          ],
+          "finders": [
+            "TeamName2",
+            "",
+            ""
+          ]
         },
         "Egg2": {
-          "finders": ["", "", ""],
-          "find_times": ["", "", ""]
+          "find_times": [
+            "",
+            "",
+            ""
+          ],
+          "finders": [
+            "",
+            "",
+            ""
+          ]
         }
       },
       "hints_used": 0
@@ -17,25 +100,28 @@
     "TeamName2": {
       "eggs": {
         "Egg1": {
-          "finders": ["TeamName1", "", ""],
-          "find_times": ["0:48", "", ""]
+          "find_times": [
+            "0:48",
+            "",
+            ""
+          ],
+          "finders": [
+            "TeamName1",
+            "",
+            ""
+          ]
         },
         "Egg2": {
-          "finders": ["", "", ""],
-          "find_times": ["", "", ""]
-        }
-      },
-      "hints_used": 0
-    },
-    "LongLongTeamName3": {
-      "eggs": {
-        "Egg1": {
-          "finders": ["TeamName1", "TeamName2", "TeamName4"],
-          "find_times": ["0:49", "1:11", "2:22"]
-        },
-        "Egg2": {
-          "finders": ["", "", ""],
-          "find_times": ["", "", ""]
+          "find_times": [
+            "",
+            "",
+            ""
+          ],
+          "finders": [
+            "",
+            "",
+            ""
+          ]
         }
       },
       "hints_used": 0
@@ -43,30 +129,31 @@
     "TeamName4": {
       "eggs": {
         "Egg1": {
-          "finders": ["TeamName1", "", ""],
-          "find_times": ["0:48", "", ""]
+          "find_times": [
+            "0:48",
+            "",
+            ""
+          ],
+          "finders": [
+            "TeamName1",
+            "",
+            ""
+          ]
         },
         "Egg2": {
-          "finders": ["", "", ""],
-          "find_times": ["", "", ""]
+          "find_times": [
+            "",
+            "",
+            ""
+          ],
+          "finders": [
+            "",
+            "",
+            ""
+          ]
         }
       },
       "hints_used": 0
-    },
-    "GMs": {
-      "color": "#000000",
-      "eggs": {
-        "Egg1": {
-          "finders": ["TeamName1", "TeamName2", ""],
-          "find_times": ["3:22", "4:10", ""]
-        },
-        "EggWithCustomPointValues": {
-          "finders": ["TeamName1", "TeamName2", "LongLongTeamName3"],
-          "find_times": ["3:22", "4:10", "4:40"],
-          "point_values": [2, 2, 2]
-        }
-      },
-      "name": "GMs"
     }
   }
 }
