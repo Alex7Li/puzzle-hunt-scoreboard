@@ -12,6 +12,7 @@ function time_in_minutes(timestr) {
   return 60 * hrs + mins;
 }
 async function getTeams() {
+  console.warn("YOU DO NOT NEED THE CONSOLE FOR ANY CLUE. PLEASE DO NOT HACK THIS SITE.")
   const dbRef = ref(db);
   const snapshot = await get(dbRef, 'teams');
   return snapshot.val()['teams']

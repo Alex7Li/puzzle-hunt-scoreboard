@@ -28,7 +28,6 @@ async function try_password(code) {
 }
 
 async function makeTables() {
-  console.warn("YOU DO NOT NEED THE CONSOLE FOR ANY CLUE. PLEASE DO NOT HACK THIS SITE.")
   const [scores, points_remaining, last_egg_time, sorted_teams, solved, teams] = await getStats()
   let body = document.createElement('div');
   body.className = "content";
@@ -45,7 +44,9 @@ async function makeTables() {
     const try_pass = document.getElementById('password_input').value;
     const response = await try_password(try_pass);
     if (response != undefined) {
-      response_text.innerHTML = response;
+      response_text.innerHTML = try_pass + " | " + response;
+    } else {
+      response_text.innerHTML = try_pass + " | Not a valid password.";
     }
   };
   body.appendChild(pass_input)
@@ -70,7 +71,8 @@ async function makeTables() {
   tr.insertCell().innerHTML = "<b>Score</b>";
   tr.insertCell().innerHTML = "<b>Solved</b>";
   tr.insertCell().innerHTML = "<b>Time</b>";
-  tr.insertCell().innerHTML = "<b>Hint</b>";
+  tr.insertCell().innerHTML = "<b>Hints Used</b>";
+  tr.insertCell().innerHTML = "<b>Hints Left</b>";
 
   for (let i = 0; i < sorted_teams.length; i++) {
     const team_name = sorted_teams[i];
@@ -96,13 +98,8 @@ async function makeTables() {
     tbl_row.insertCell().appendChild(document.createTextNode(solved[team_name]));
     const find_time = last_egg_time[team_name];
     tbl_row.insertCell().appendChild(document.createTextNode(!find_time ? "\u2014" : find_time));
-    let hint_text = "Unused";
-    if (team.hints_used == 1) {
-      hint_text = "Used";
-    } else if (team.hints_used > 1) {
-      hint_text = "Used " + team.hints_used;
-    }
-    tbl_row.insertCell().appendChild(document.createTextNode(hint_text));
+    tbl_row.insertCell().appendChild(document.createTextNode(team.hints_used));
+    tbl_row.insertCell().appendChild(document.createTextNode(parseInt(team.hints_total) - parseInt(team.hints_used)));
   }
   body.appendChild(tbl);
 

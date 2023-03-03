@@ -9,7 +9,7 @@ h2 {font-family: 'Oswald', sans-serif;}
 div.content { 
     width: 725px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 6px;
 }
 a.hidden:link {/* uwu what's this? */
     text-decoration: none;
